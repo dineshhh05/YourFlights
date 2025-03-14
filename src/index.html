@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YourFlights</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="heroText-container">Where are you headed ?</div>
+
+        <div class="form-container">
+            <div class="input-container">
+                <span>From</span>
+                <input id="departureID" type="text" placeholder="Airport Code">
+            </div>
+
+            <div class="input-container">
+                <span>To</span>
+                <input id="arrivalID" type="text" placeholder="Airport Code">
+            </div>
+
+            <div class="input-container">
+                <span>Departure</span>
+                <input id="outboundDate" type="date">
+            </div>
+
+            <div class="submit-button">
+                <span></span>
+                <button type="submit" onclick="searchFlights()">Search</button>
+            </div>
+        </div>
+
+    </div>
+
+    <section class="results">
+        <div class="results-heading-best">
+
+            <!-- FOR TESTING WITHOUT AN API CALL, AS API CALL IS LIMITED -->
+
+            <!-- <div class="results-title">Best Flights</div>
+            <div class="side-note">Only economy, single way, non-stop flights are shown</div> -->
+        </div>
+        
+        <ul class="flights-list-best">
+            
+            <!-- FOR TESTING WITHOUT AN API CALL, AS API CALL IS LIMITED -->
+
+            <!-- <li class="flight-info-container">
+                <img id="flight-logo" src="assets/logo.png"/>
+                <div class="details-container">
+                    <div class="details-1">10:10 PM - 7:10 PM</div>
+                    <div class="details-2">Air Canada</div>
+                </div>
+                <div class="details-container">
+                    <div class="details-1">13 hr 10 min</div>
+                    <div class="details-2">YYZ-DXB</div>
+                </div>
+                <div class="details-container">
+                    <div class="details-1">Non-Stop</div>
+                </div>
+                <div class="price">CA$393</div>
+            </li>
+
+            <li class="flight-info-container">
+                <img id="flight-logo" src="assets/logo.png"/>
+                <div class="details-container">
+                    <div class="details-1">10:10 PM - 7:10 PM</div>
+                    <div class="details-2">Air Canada</div>
+                </div>
+                <div class="details-container">
+                    <div class="details-1">13 hr 10 min</div>
+                    <div class="details-2">YYZ-DXB</div>
+                </div>
+                <div class="details-container">
+                    <div class="details-1">Non-Stop</div>
+                </div>
+                <div class="price">CA$393</div>
+            </li> -->
+        </ul>
+
+        <div class="results-heading-other">
+
+            <!-- FOR TESTING WITHOUT AN API CALL, AS API CALL IS LIMITED -->
+
+            <!-- <div class="results-title">Best Flights</div>
+            <div class="side-note">Only economy, single way, non-stop flights are shown</div> -->
+        </div>
+
+        <ul class="flights-list-other">    
+            <!-- FOR TESTING WITHOUT AN API CALL, AS API CALL IS LIMITED -->
+
+            <!-- <li class="flight-info-container">
+                <img id="flight-logo" src="assets/logo.png"/>
+                <div class="details-container">
+                    <div class="details-1">10:10 PM - 7:10 PM</div>
+                    <div class="details-2">Air Canada</div>
+                </div>
+                <div class="details-container">
+                    <div class="details-1">13 hr 10 min</div>
+                    <div class="details-2">YYZ-DXB</div>
+                </div>
+                <div class="details-container">
+                    <div class="details-1">Non-Stop</div>
+                </div>
+                <div class="price">CA$393</div>
+            </li>
+
+            <li class="flight-info-container">
+                <img id="flight-logo" src="assets/logo.png"/>
+                <div class="details-container">
+                    <div class="details-1">10:10 PM - 7:10 PM</div>
+                    <div class="details-2">Air Canada</div>
+                </div>
+                <div class="details-container">
+                    <div class="details-1">13 hr 10 min</div>
+                    <div class="details-2">YYZ-DXB</div>
+                </div>
+                <div class="details-container">
+                    <div class="details-1">Non-Stop</div>
+                </div>
+                <div class="price">CA$393</div>
+            </li> -->
+        </ul>
+    </section>
+    
+</body>
+</html>

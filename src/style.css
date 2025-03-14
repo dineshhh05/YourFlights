@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: "Poppins", serif;
+}
+
+body{
+    background-color: black;
+    color: rgb(206, 206, 206);
+}
+
+.main-container{
+    padding-top: 13vw;
+    width: 100%;
+    height: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heroText-container{
+    font-size: 3.5em;
+    font-weight: 600;
+    word-spacing: 0.2rem;
+    margin-bottom: 35px;
+}
+
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 50px;
+}
+
+.input-container, .submit-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 70%;
+}
+
+.input-container > span, .submit-button > span{
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.input-container > input{
+    background-color:black;
+    border: solid 1px grey;
+    border-radius: 12px;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.submit-button > button{
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 10px;
+    height: 65px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3rem;
+    color: white;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button > button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+
+.input-container > input:hover{
+    border-color: white;
+}
+
+.results{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+
+.results-heading-best, .results-heading-other{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20vw;
+}
+
+.results-heading-other{
+    margin-top: 60px;
+}
+
+.side-note{
+    font-size: 1rem;
+    font-style: italic;
+    color: gray;
+}
+
+.results-title{
+    font-size: 1.5rem;
+}
+
+.flights-list-best, .flights-list-other{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around ;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.flight-info-container{
+    list-style-type: none;
+    height: 90px;
+    padding: 1.5em;
+    border-radius: 10px;
+    margin: 20px 0;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border: 1px solid grey;
+}
+
+.flight-info-container:hover{
+    background-color: #0e0e0e;
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+    border-color: #ffffff;
+}
+
+#flight-logo{
+    height: 50px;
+    width: 50px;
+}
+
+.details-container{
+    display: flex;
+    height: 80px;
+    align-items: right;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.details-1{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.details-2{
+    font-size: 1.2em;
+    color:#878787;
+}
+
+.price{
+    font-size: 1.3em;
+    font-weight: 600;
+    color: rgb(56, 190, 56);
+}
