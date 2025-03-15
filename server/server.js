@@ -1,9 +1,10 @@
 import express from 'express';  
 import fetch from 'node-fetch'; 
 import cors from 'cors'; 
+import dotenv from 'dotenv';
 
-const apiKey = process.env.API_KEY;
 dotenv.config();
+const apiKey = process.env.API_KEY;
 
 const app = express();
 const port = 3000;
