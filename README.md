@@ -21,7 +21,7 @@ Make sure you have the following installed:
 
 - **Node.js** (https://nodejs.org/)
 - **npm** (Node Package Manager)
-- **SerpAPI API key**
+- **SerpAPI API key** (https://serpapi.com/users/sign_up)
 
 ### Installation
 
