@@ -17,8 +17,8 @@ Follow these instructions to set up and run the project locally.
 Make sure you have the following installed:
 
 - **Node.js** (https://nodejs.org/)
-- **MongoDB Atlas** account for cloud-based database (optional: local MongoDB setup)
 - **npm** (Node Package Manager)
+- **SerpAPI API key**
 
 ### Installation
 
