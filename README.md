@@ -1,3 +1,6 @@
+<img width="1000" alt="image" src="https://github.com/user-attachments/assets/3f8f7beb-3b5c-4f0f-915e-dfd1564dd556" />
+
+
 # YourFlights
 
 **YourFlights** is a flight search application built with **Node.js**. It allows users to search for available flights and view detailed information, flight booking management(soon).
